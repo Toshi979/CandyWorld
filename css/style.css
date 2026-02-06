@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Knewave&display=swap');
+* {
+    font-family: "Comfortaa", sans-serif;
+}
+@media screen and (max-width: 992px) {
+    .main__assortement-all{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contacts__script{
+        width: 300px;
+    }
+    .section__about-us{
+        max-width: 670px;
+    }
+    body {
+    max-width: 700px;
+}
+.assort__img-with-cakes{
+    width: 100px;
+    border-radius: 100px;
+}
+}
+@media screen and (max-width: 576px) {
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        }
+    .main__contacts{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main__contacts-and-card{
+        margin-top: 40px;
+    }
+    .section__about-us{
+        max-width: 100%;
+    }
+    body {
+    max-width: 100%;
+    }
+ul{
+    margin-right: 10px;
+    margin-left: -10px;
+    align-items: center;
+}
+nav{
+    padding: 0px;
+}
+
+}
+@media screen and (max-width: 378px) {
+    nav{
+        margin: 0 auto;
+    }
+    .main__assortement-all{
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .section__about-us{
+        max-width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main__contacts-and-card{
+        width: 80%;
+    }
+    .main__contacts{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header{
+        width: auto;
+    }
+    .contacts__text-candy{
+        width: 300px;
+    }
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 223, 196);
+}
+main{
+    margin-bottom: 50px;
+}
+.logo {
+    text-decoration: underline wavy 2px;
+    color: rgb(141, 87, 69);
+    font-family: "Knewave", system-ui;
+    animation: logotipe 1.5s infinite;
+    animation-direction: alternate;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(141, 87, 69);
+}
+h2{
+    color: rgb(141, 87, 69);
+}
+.header__navigation {
+    list-style: none;
+    text-align: center;
+    margin: 0px 15px;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+}
+.buttons-ass, .assort__links-balls, .button__open-list{
+    cursor: pointer;
+}
+.main__contacts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.main__name-product {
+    text-align: center;
+}
+.main__assortement {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.main__assortement-section {
+    background-color: white;
+    padding: 5px 0px 10px 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.ass__cakes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.about-us__the-div{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+fieldset {
+    width: 200px;
+    text-align: left;
+    border: dashed  rgb(226, 195, 173);
+    border-radius: 30px;
+    padding: 20px 100px;
+}
+.about-h1{
+    color: white;
+    text-align: left;
+}
+.first-section__text{
+    color: rgb(255, 255, 255);
+}
+.login-img {
+    max-width: 400px;
+}
+.header__links {
+    text-decoration: none;
+    color: rgb(207, 169, 118);
+    font-weight: 900;
+}
+h3{
+    text-align: center;
+}
+.main__img-accordion {
+    margin: 20px;
+}
+.main__accortement-img {
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.main__accortement-img:hover{
+    width: 170px;
+    border-radius: 100px;
+    transition-duration: 1s;
+    margin-bottom: 0px;
+}
+.main__people-img {
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.main__people-img:hover{
+    width: 170px;
+    border-radius: 100px;
+    transition-duration: 1s;
+    transform: rotate(20deg);
+    margin-bottom: 0px;
+}
+.main__accortement-all-img {
+    text-align: center;
+    width: 250px;
+}
+.buttons{
+    padding: 5px 5px;
+    border: solid rgb(224, 192, 169);
+    background-color: rgb(255, 233, 219);
+    border-radius: 10px;
+    color: rgb(141, 87, 69);
+    font-weight: 900;
+    cursor: pointer;
+}
+.buttons:hover{
+    transition-duration: 0.5s;
+    font-size: 14px;
+    color: rgb(194, 70, 70);
+    background-color: rgb(248, 170, 170);
+    border: solid rgb(226, 110, 110) 2px;
+}
+.buttons-ass{
+    padding: 7px 7px;
+    border: solid rgb(178, 142, 189);
+    background-color:rgb(211, 160, 226);
+    border-radius: 10px;
+    color: rgb(46, 12, 78);
+}
+.buttons-ass:hover{
+    padding: 10px 10px;
+    border: solid rgb(189, 142, 150);
+    background-color:rgb(226, 160, 180);
+    border-radius: 15px;
+    color: rgb(78, 12, 26);
+    font-size: 15px;
+    font-weight: 900;
+    transition-duration: 1s;
+    margin: -2px;
+}
+.ass-poisk {
+    text-align: center;
+}
+.assort__img-with-cakes {
+    width: 200px;
+    border-radius: 200px;
+}
+.assort__img-stars {
+    width: 20px;
+}
+.assort__divs-about-cakes {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(252, 242, 231);
+    border: solid rgb(226, 200, 183) 2px;
+    border-radius: 20px;
+    width: 300px;
+}
+.main__contacts-and-card {
+    width: 500px;
+    height: 400px;
+}
+.entrance__container{
+text-align: center;
+}
+span{
+    text-decoration: underline wavy 2px;
+    color: rgb(141, 87, 69);
+    font-family: "Knewave", system-ui;
+}
+p{
+    font-size: 15px;
+}
+.entrance__to-login{
+    text-decoration: none;
+    color: firebrick;
+    font-weight: 900;
+}
+.assort__links-balls{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(46, 12, 78);
+    font-weight: 700;
+}
+.button__open-list{
+    padding: 5px 5px;
+    border: solid rgb(201, 176, 159);
+    background-color: rgb(238, 208, 187);
+    border-radius: 10px;
+    }
+.button__open-list-div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.img__simferopol{
+    max-width: 1100px;
+}
+.section__about-us{
+    background-image: url(../img/магазин.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 50px 200px 50px;
+    margin-top: 50px;
+    border: solid 1px  rgb(141, 87, 69);
+    border-radius: 30px;
+}
+.button_about-us{
+    padding: 7px;
+    border: solid rgb(206, 193, 184);
+    background-color: rgb(235, 220, 210);
+    border-radius: 10px;
+    color: rgb(141, 87, 69);
+    font-weight: 900;
+    cursor: pointer;
+}
+.button_about-us:hover{
+    transition-duration: 1s;
+    font-size: 17px;
+    color: brown;
+    background-color: rgb(235, 129, 129);
+    border: solid rgb(184, 71, 71);
+    padding: 10px;
+    width: 250px;
+}
+.contacts__icons{
+    width: 30px;
+}
+.main__blesk{
+    width: 40px;
+    height: 50px;
+    animation: blesk 1s infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes blesk{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes logotipe{
+    from{
+        transform: rotate(-3deg);
+    }
+    to{
+        transform: rotate(3deg);
+    }
+}
+input{
+    padding: 5px;
+    width: 200px;
+}
+.contacts__big-image{
+    width: 450px;
+    height: 275px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
